@@ -1,2 +1,11 @@
-package com.scaler.userservice.DTO;public class LoginRequestDTO {
+package com.scaler.userservice.DTO;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class LoginRequestDTO {
+    private String email;
+    private String password;
 }
